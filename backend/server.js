@@ -1,10 +1,10 @@
-//MoNGODB CONNECTION: mongodb+srv://aim:<password>@cluster0-dbrul.mongodb.net/test?retryWrites=true&w=majority
+//MONGODB CONNECTION: mongodb+srv://Marvin:<password>@cluster0-oj48s.mongodb.net/test?retryWrites=true&w=majority
 
 const http = require('http');
 const app = require('./app');
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb+srv://aim:<passwd>@cluster0-dbrul.mongodb.net/test?retryWrites=true&w=majority')
+mongoose.connect('mongodb+srv://Marvin:CeQ9wdQW7iMUg8NX@cluster0-oj48s.mongodb.net/test?retryWrites=true&w=majority')
     .then(()=>{
         console.log("successfully connected to mongodb atlas");
     })
